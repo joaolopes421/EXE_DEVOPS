@@ -66,8 +66,8 @@ resource "docker_container" "db" {
     name = docker_network.monitoring.name
   }
   volumes {
-    container_path       = "/var/lib/postgresql/data"
-    volume_name          = docker_volume.db_data.name
+    container_path = "/var/lib/postgresql/data"
+    volume_name    = docker_volume.db_data.name
   }
 }
 
