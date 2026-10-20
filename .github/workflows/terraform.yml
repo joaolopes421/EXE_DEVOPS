@@ -38,4 +38,4 @@ jobs:
         run: |
           sleep 5
           docker ps
-          curl -s http://localhost:8080 | grep "Minha primeira infraestrutura"
+          curl -s http://localhost:8080 | grep "Laboratório DevOps Ativo!"
